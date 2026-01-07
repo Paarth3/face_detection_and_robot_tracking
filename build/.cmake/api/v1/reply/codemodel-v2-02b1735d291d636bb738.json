@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f4d6f63b972b8e4025ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package_uninstall-Debug-3bb0dff7c16eae487722.json",
+					"name" : "my_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher-Debug-e22ebd246b677bf799da.json",
+					"name" : "publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber-Debug-e7fddc255d9fde779ee9.json",
+					"name" : "subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-b617c2e4fdb4593738e7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paarth-pasari/CPP/Learning_OpenCV/Camera_robot_system/src/my_package/build",
+		"source" : "/home/paarth-pasari/CPP/Learning_OpenCV/Camera_robot_system/src/my_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
